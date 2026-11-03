@@ -1,0 +1,94 @@
+{
+  "name": "Ride Pulse - Night ride",
+  "dataColors": [
+    "#3DBE8B",
+    "#EF8A6F",
+    "#F4B860",
+    "#7D8FD8",
+    "#B5BDB9",
+    "#17221D",
+    "#7FD3B0",
+    "#B3E5CF"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#16211C",
+  "tableAccent": "#3DBE8B",
+  "good": "#3DBE8B",
+  "neutral": "#F4B860",
+  "bad": "#EF8A6F",
+  "minimum": "#E4F6EE",
+  "center": "#7FD3B0",
+  "maximum": "#1E7A55",
+  "textClasses": {
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 24, "color": "#16211C" },
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#16211C" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#16211C" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 9, "color": "#566159" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E3E8E5" } }, "radius": 16 }],
+        "dropShadow": [{ "show": false }],
+        "padding": [{ "top": 8, "bottom": 12, "left": 12, "right": 12 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#16211C" } }, "fontSize": 11, "fontFamily": "Segoe UI Semibold", "alignment": "left" }],
+        "subTitle": [{ "fontColor": { "solid": { "color": "#566159" } }, "fontSize": 9, "fontFamily": "Segoe UI" }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "valueAxis": [{ "showAxisTitle": false, "labelColor": { "solid": { "color": "#566159" } }, "fontSize": 9, "gridlineColor": { "solid": { "color": "#ECF0EE" } } }],
+        "categoryAxis": [{ "showAxisTitle": false, "labelColor": { "solid": { "color": "#566159" } }, "fontSize": 9, "gridlineShow": false }],
+        "legend": [{ "show": true, "position": "TopRight", "labelColor": { "solid": { "color": "#566159" } }, "fontSize": 9, "showTitle": false }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "valueAxis": [{ "show": false, "gridlineShow": false }],
+        "categoryAxis": [{ "showAxisTitle": false, "labelColor": { "solid": { "color": "#566159" } }, "fontSize": 9 }],
+        "labels": [{ "show": false }]
+      }
+    },
+    "clusteredColumnChart": {
+      "*": {
+        "valueAxis": [{ "show": false, "gridlineShow": false }],
+        "categoryAxis": [{ "showAxisTitle": false, "labelColor": { "solid": { "color": "#566159" } }, "fontSize": 9 }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "valueAxis": [{ "show": false, "gridlineShow": false }],
+        "categoryAxis": [{ "showAxisTitle": false, "labelColor": { "solid": { "color": "#16211C" } }, "fontSize": 9 }],
+        "labels": [{ "show": true, "color": { "solid": { "color": "#566159" } }, "fontSize": 9 }]
+      }
+    },
+    "clusteredBarChart": {
+      "*": {
+        "valueAxis": [{ "show": false, "gridlineShow": false }],
+        "categoryAxis": [{ "showAxisTitle": false, "labelColor": { "solid": { "color": "#16211C" } }, "fontSize": 9 }],
+        "labels": [{ "show": true, "color": { "solid": { "color": "#566159" } }, "fontSize": 9 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "border": [{ "show": true, "color": { "solid": { "color": "#E3E8E5" } }, "radius": 12 }],
+        "header": [{ "fontColor": { "solid": { "color": "#566159" } }, "textSize": 9 }],
+        "items": [{ "fontColor": { "solid": { "color": "#16211C" } }, "textSize": 10 }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#566159" } }, "backColor": { "solid": { "color": "#FFFFFF" } }, "fontSize": 9 }],
+        "values": [{ "fontColorPrimary": { "solid": { "color": "#16211C" } }, "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#FFFFFF" } }, "fontSize": 9 }],
+        "grid": [{ "gridVertical": false, "gridHorizontal": true, "gridHorizontalColor": { "solid": { "color": "#ECF0EE" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F3F5F4" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F3F5F4" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
